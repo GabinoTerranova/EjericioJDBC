@@ -1,11 +1,11 @@
-# Proyecto JDBC
-
+# ProyectoJDBC Programacion 2
++ Nombre y Apellido: Franco Agustin Albornoz
++ Legajo: 51474
++ Email Escolar: francoa.albornoz@alumnos.frm.utn.edu.ar
++ Email: franquito45@live.com
+##  Proyecto JDBC
 Este es un proyecto simple que utiliza JDBC para interactuar con una base de datos MySQL.
-
 ## Estructura del Proyecto
-
-El proyecto consta de las siguientes clases:
-
 - `DbConnection`: Esta clase se encarga de establecer la conexión con la base de datos.
 - `EstudianteDao` y `MateriaDao`: Estas clases son los Data Access Objects (DAO) para los estudiantes y las materias, 
         respectivamente. Proporcionan los métodos CRUD (Create, Read, Update, Delete) para interactuar con la base de datos.
@@ -13,7 +13,6 @@ El proyecto consta de las siguientes clases:
 - `EjercicioJDBC`: Esta es la clase principal que ejecuta el programa.
 
 ## Configuración
-
 Para configurar este proyecto en tu máquina local, sigue estos pasos:
 
 1. Clona el repositorio en tu máquina local.
@@ -26,7 +25,8 @@ Para configurar este proyecto en tu máquina local, sigue estos pasos:
 
 Para ejecutar este proyecto, navega hasta el directorio raíz del proyecto en tu terminal y ejecuta el siguiente comando:
 
-```bash
+```
+bash
 mvn exec:java -Dexec.mainClass="Principal.EjercicioJDBC"
 
 Dependencias
@@ -38,3 +38,4 @@ mysql-connector-java: Esta es la librería de MySQL que permite a Java comunicar
 Contribuir
 
 Las contribuciones son bienvenidas. Por favor, abre un issue o realiza un pull request con tus cambios.
+```
