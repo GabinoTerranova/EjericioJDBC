@@ -28,12 +28,12 @@ Para ejecutar este proyecto, navega hasta el directorio raíz del proyecto en tu
 ```bash
 mvn exec:java -Dexec.mainClass="Principal.EjercicioJDBC"
 
-## Dependencias
+Dependencias
 
 Este proyecto utiliza las siguientes dependencias:
 
-- `mysql-connector-java`: Esta es la librería de MySQL que permite a Java comunicarse con la base de datos MySQL.
+mysql-connector-java: Esta es la librería de MySQL que permite a Java comunicarse con la base de datos MySQL.
 
-## Contribuir
+Contribuir
 
 Las contribuciones son bienvenidas. Por favor, abre un issue o realiza un pull request con tus cambios.
