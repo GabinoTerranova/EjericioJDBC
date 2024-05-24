@@ -7,7 +7,8 @@ Este es un proyecto simple que utiliza JDBC para interactuar con una base de dat
 El proyecto consta de las siguientes clases:
 
 - `DbConnection`: Esta clase se encarga de establecer la conexión con la base de datos.
-- `EstudianteDao` y `MateriaDao`: Estas clases son los Data Access Objects (DAO) para los estudiantes y las materias, respectivamente. Proporcionan los métodos CRUD (Create, Read, Update, Delete) para interactuar con la base de datos.
+- `EstudianteDao` y `MateriaDao`: Estas clases son los Data Access Objects (DAO) para los estudiantes y las materias, 
+        respectivamente. Proporcionan los métodos CRUD (Create, Read, Update, Delete) para interactuar con la base de datos.
 - `Estudiante` y `Materia`: Estas clases son los modelos de los objetos Estudiante y Materia.
 - `EjercicioJDBC`: Esta es la clase principal que ejecuta el programa.
 
