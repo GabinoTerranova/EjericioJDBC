@@ -79,7 +79,7 @@ ALTER TABLE `estudiantes`
 -- AUTO_INCREMENT de la tabla `materias`
 --
 ALTER TABLE `materias`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(1) NOT NULL AUTO_INCREMENT;
 
 --
 -- Restricciones para tablas volcadas
