@@ -91,7 +91,7 @@ public class EjercicioJDBC {
                     try {
                         List<Materia> materias = materiaDAO.selectAll();
                         for (Materia m : materias) {
-                            System.out.println(m.getId() + ": " + m.getNombre());
+                            System.out.println("Id Materia: " + m.getId() + "\n "+ "Nombre Materia" + m.getNombre());
                         }
                     } catch (SQLException e) {
                         e.printStackTrace();
