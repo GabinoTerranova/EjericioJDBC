@@ -3,15 +3,10 @@ package Modelo;
 public class Materia {
     private int id;
     private String nombre;
-    private int idEstudiante;
 
-    public Materia() {
-    }
-
-    public Materia(int id, String nombre, int idEstudiante) {
+    public Materia(int id, String nombre) {
         this.id = id;
         this.nombre = nombre;
-        this.idEstudiante = idEstudiante;
     }
 
     public int getId() {
@@ -28,13 +23,5 @@ public class Materia {
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
-    }
-
-    public int getIdEstudiante() {
-        return idEstudiante;
-    }
-
-    public void setIdEstudiante(int idEstudiante) {
-        this.idEstudiante = idEstudiante;
     }
 }
