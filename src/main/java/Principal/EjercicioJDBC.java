@@ -83,8 +83,9 @@ public class EjercicioJDBC {
                     int idEliminar = scanner.nextInt();
                     try {
                         estudianteDAO.delete(idEliminar);
+                        System.out.println("Estudiante eliminado...");
                     } catch (SQLException e) {
-                        e.printStackTrace();
+                        System.out.println("No se puede eliminar por que tiene una Inscripcion en una materia");
                     }
                     break;
                 case 5:
@@ -124,8 +125,9 @@ public class EjercicioJDBC {
                     int idMateriaEliminar = scanner.nextInt();
                     try {
                         materiaDAO.delete(idMateriaEliminar);
+                        System.out.println("Materia eliminada...");
                     } catch (SQLException e) {
-                        e.printStackTrace();
+                        System.out.println("No se puede eliminar por que tiene una incrpcion con un alumno");
                     }
                     break;
                 case 9:
@@ -149,6 +151,7 @@ public class EjercicioJDBC {
                     System.out.print("ID de la Inscripción a eliminar: ");
                     int idInscripcionEliminar = scanner.nextInt();
                     fechaInscripcionDAO.delete(idInscripcionEliminar);
+                    System.out.println("Fecha Eliminada");
                     break;
                 case 12:
                     System.out.println("Saliendo...");
